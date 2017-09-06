@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="ll_titlebar_parent" type="id"/>
+    <item name="tv_titlebar_back" type="id"/>
+    <item name="tv_titlebar_title" type="id"/>
+    <item name="tv_titlebar_right" type="id"/>
+</resources>

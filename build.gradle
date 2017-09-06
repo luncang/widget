@@ -5,12 +5,12 @@ apply plugin: 'com.jfrog.bintray'
 
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.2"
+    compileSdkVersion 23
+    buildToolsVersion "24.0.3"
 
     defaultConfig {
         minSdkVersion 14
-        targetSdkVersion 25
+        targetSdkVersion 22
         versionCode 1
         versionName "1.0"
 
@@ -30,7 +30,7 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:appcompat-v7:23.2.1'
     testCompile 'junit:junit:4.12'
 }
 
@@ -124,7 +124,7 @@ bintray {
         //这里的repo值必须要和你创建Maven仓库的时候的名字一样
         repo = "maven"
         //发布到JCenter上的项目名字
-        name = widget
+        name = libName
         //项目描述
         desc = 'A repository of common widget for star.'
         websiteUrl = siteUrl
