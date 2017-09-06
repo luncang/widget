@@ -15,11 +15,13 @@ import com.star.widget.R;
 
 /**
  * Android自定义标题栏
+ * 提供常见标题栏所需属性，返回，标题，保存，
+ * 支持各种扩展，修改
  * Created by charles_lun
  */
 
 public class CustomTitleBar extends LinearLayout {
-    private final int DEFAULT_TITLE_SIZE=18;
+    private final int DEFAULT_TITLE_SIZE=16;
     private final int DEFAULT_UNTITLE_SIZE=14;
     /**
      * 标题栏的根布局
