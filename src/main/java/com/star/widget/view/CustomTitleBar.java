@@ -171,6 +171,8 @@ public class CustomTitleBar extends LinearLayout {
                 }
             }
         });
+
+        typedArray.recycle();
     }
 
     /**

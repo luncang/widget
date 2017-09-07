@@ -17,4 +17,33 @@
         <attr name="right_button_textSize" format="dimension"/>
         <attr name="show_right_button" format="boolean"/>
     </declare-styleable>
+    
+    <declare-styleable name="TextViewWithDiagonal">
+        <!--斜线颜色-->
+        <attr name="diagonal_color" format="color"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="ExpandableLinearLayout">
+        <attr name="duration" format="integer" />
+        <attr name="expandable" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="NumberPicker">
+        <attr name="normalTextColor" format="color" />
+        <attr name="normalTextSize" format="dimension" />
+        <attr name="selecredTextColor" format="color" />
+        <attr name="selecredTextSize" format="dimension" />
+        <attr name="unitHight" format="dimension" />
+        <attr name="itemNumber" format="integer" />
+        <attr name="lineColor" format="color" />
+        <attr name="maskHight" format="dimension" />
+        <attr name="noEmpty" format="boolean" />
+        <attr name="isEnable" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="IndicatorView">
+        <attr name="space_pinding" format="dimension" />
+    </declare-styleable>
+
 </resources>
